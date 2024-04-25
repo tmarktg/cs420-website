@@ -1820,14 +1820,14 @@ th {
   background-color: #f5f5f5;
 }
 
-table col[class *='col-'] {
+table col[class*='col-'] {
   position: static;
   display: table-column;
   float: none;
 }
 
-table td[class *='col-'],
-table th[class *='col-'] {
+table td[class*='col-'],
+table th[class*='col-'] {
   display: table-cell;
   float: none;
 }
@@ -3997,7 +3997,7 @@ input[type='submit'].btn-block {
   border-collapse: separate;
 }
 
-.input-group[class *='col-'] {
+.input-group[class*='col-'] {
   float: none;
   padding-right: 0;
   padding-left: 0;
